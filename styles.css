@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    flex: 0 0 auto;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    padding: 40px 100px;
+    display: flex;
+    flex: row;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 40px;
+}
+
+.test {
+    background-color: #e5e7eb;
+    padding: 30px 100px;
+    color: #1F2937;
+}
+
+.ad {
+    background-color: #3882f6;
+    margin: 30px 50px;
+    padding: 5px 10px;
+    color: white;
+}
